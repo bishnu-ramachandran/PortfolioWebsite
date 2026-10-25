@@ -11,6 +11,7 @@ a{color:var(--accent)}p{margin:0 0 1em}
 .nav .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:.7rem 1.4rem}
 .logo{font-family:Georgia,serif;font-weight:700;text-decoration:none;font-size:1.2rem}
 nav{display:flex;flex-wrap:wrap;gap:.2rem 1.1rem;font-size:.92rem}nav a{color:var(--muted);text-decoration:none}nav a:hover{color:var(--accent)}
+.portrait{width:180px;height:180px;border-radius:50%;object-fit:cover;border:3px solid var(--accent);float:right;margin:0 0 1rem 1.5rem}
 .hero{padding-top:5rem}.eyebrow{color:var(--accent);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:.8rem}
 .lead{font-size:1.25rem;color:var(--muted);max-width:40em}
 .links{display:flex;flex-wrap:wrap;gap:.6rem;margin:1.6rem 0}
