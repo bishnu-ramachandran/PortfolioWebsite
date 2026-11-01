@@ -31,3 +31,10 @@ btn.addEventListener('click', () => {
   paint();
 });
 paint();
+
+// "Copy BibTeX" buttons
+document.querySelectorAll('.copy').forEach(b => b.addEventListener('click', async () => {
+  try { await navigator.clipboard.writeText(b.previousElementSibling.textContent); b.textContent = 'Copied'; }
+  catch (e) { b.textContent = 'Select and copy manually'; }
+  setTimeout(() => { b.textContent = 'Copy BibTeX'; }, 2000);
+}));
